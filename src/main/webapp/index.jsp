@@ -1,12 +1,12 @@
 <html>
 <head>
-    <title>Boxfuse Sample App jr-charan : success!</title>
+    <title>Boxfuse Sample App  : success!</title>
 </head>
 <body style="text-align: center">
-<h1>Congratulations sree charan!</h1>
+<h1>Congratulations!</h1>
 <img src="boxfuse.png">
 
-<h2>successfully completed launched instance </h2>
+<h2>successfully completed launched your  instance! </h2>
 
 <p>This Instance is running on <strong><%= System.getenv("BOXFUSE_PLATFORM_NAME") %>
 </strong> and has the id <strong><%= System.getenv("BOXFUSE_INSTANCE_ID") %>
@@ -49,7 +49,7 @@
 <% } else { %>
 <h2 style="margin-top: 80px">Now it's your turn!</h2>
 
-<p>Check this <strong><a href="https://github.com/boxfuse/boxfuse-sample-java-war-hello">this app</a></strong> from GitHub, modify it, and give it version 2.<br/>You are now ready to fuse and <strong>deploy it with zero downtime</strong> using the commands you already know.</p>
+<p>Check <strong><a href="https://github.com/boxfuse/boxfuse-sample-java-war-hello">this app</a></strong> from GitHub, modify it, and give it version 2.<br/>You are now ready to fuse and <strong>deploy it with zero downtime</strong> using the commands you already know.</p>
 
 <p>Alternatively you can go back to the <strong><a href="https://console.boxfuse.com">Boxfuse Console</a></strong>,<br/> and simply create your own.</p>
 
